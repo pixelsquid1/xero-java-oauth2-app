@@ -26,9 +26,9 @@ public class TokenRefresh {
     final static Logger logger = LoggerFactory.getLogger(TokenRefresh.class);
     
     final String TOKEN_SERVER_URL = "https://identity.xero.com/connect/token";
-    final String clientId = System.getenv("XERO_CLIENT_ID");
-    final String clientSecret = System.getenv("XERO_CLIENT_SECRET");
-    final String redirectURI = System.getenv("XERO_REDIRECT_URI");
+    final String clientId = "B0AD34D11F204863A2B8384DB4643CC5";
+    final String clientSecret = "TKF36DxRDBkd980QH04Lrz73urhjFzEE8smKF8icTTkNygrm";
+    final String redirectURI = "https://stock-forecasting-app.herokuapp.com/Callback";
     
     public TokenRefresh() {
         super();
