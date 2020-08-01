@@ -30,8 +30,8 @@ import com.xero.models.identity.Connection;
 @WebServlet("/Callback")
 public class Callback extends HttpServlet {
     private static final long serialVersionUID = 1L;
-    final String clientId = "B0AD34D11F204863A2B8384DB4643CC5";
-    final String clientSecret = "TKF36DxRDBkd980QH04Lrz73urhjFzEE8smKF8icTTkNygrm";
+    final String clientId = "086BAAE6D38F48C6A5A8C982DA74A262";
+    final String clientSecret = "tLPxL-V-JAfwd-bM7AJN7Ge8Ba_vjAr7zMZzBOj38SMUSnT4";
     final String redirectURI = "https://stock-forecasting-app.herokuapp.com/Callback";
     final String TOKEN_SERVER_URL = "https://identity.xero.com/connect/token";
     final String AUTHORIZATION_SERVER_URL = "https://login.xero.com/identity/connect/authorize";

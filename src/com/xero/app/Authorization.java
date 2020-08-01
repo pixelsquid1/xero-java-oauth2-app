@@ -31,8 +31,8 @@ public class Authorization extends HttpServlet {
     final NetHttpTransport HTTP_TRANSPORT = new NetHttpTransport();
     final JsonFactory JSON_FACTORY = new JacksonFactory();
     final String secretState = "secret" + new Random().nextInt(999_999);
-    final String clientId = "B0AD34D11F204863A2B8384DB4643CC5";
-    final String clientSecret = "TKF36DxRDBkd980QH04Lrz73urhjFzEE8smKF8icTTkNygrm";
+    final String clientId = "086BAAE6D38F48C6A5A8C982DA74A262";
+    final String clientSecret = "tLPxL-V-JAfwd-bM7AJN7Ge8Ba_vjAr7zMZzBOj38SMUSnT4";
     final String redirectURI = "https://stock-forecasting-app.herokuapp.com/Callback";
 
     /**
